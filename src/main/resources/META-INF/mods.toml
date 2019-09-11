@@ -14,22 +14,16 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 # The modid of the mod
 modId="fireresistitems" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="${file.jarVersion}" #mandatory
+version="1.0" #mandatory
  # A display name for the mod
 displayName="Fire Resisting Items" #mandatory
-# A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="" #optional
-# A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="" #optional
-# A file name (in the root of the mod JAR) containing a logo for display
-logoFile="" #optional
 # A text field displayed in the mod UI
 credits="A meme for giving me this idea" #optional
 # A text field displayed in the mod UI
 authors="IrresoluteArkia" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A mod to protect items with fire resistance/aspect from fire and lava
+A mod to protect items with fire-type enchantments from fire and lava
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.fireresistitems]] #optional
